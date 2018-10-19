@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Colorlib Templates">
+    <meta name="author" content="Colorlib">
+    <meta name="keywords" content="Colorlib Templates">
+
+    <!-- Title Page-->
+    <title>Regstiration</title>
+
+    <!-- Icons font CSS-->
+    <link href="/static/content/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="/static/content/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+    <!-- Vendor CSS-->
+    <link href="/static/content/vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="/static/content/vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="/static/content/main.css" rel="stylesheet" media="all">
+</head>
+<body>
+<div class="page-wrapper bg-gra-03 p-t-45 p-b-50">
+        <div class="wrapper wrapper--w790">
+            <div class="card card-5">
+                <div class="card-heading">
+                    <h2 class="title">CIB Registration Form</h2>
+                </div>
+                <div class="card-body">
+                    <form method="POST">
+                        <div class="form-row m-b-55">
+                            <div class="name">Name</div>
+                            <div class="value">
+                                <div class="row row-space">
+                                    <div class="col-2">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" name="first_name" id="first_name">
+                                            <label class="label--desc">first name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" name="last_name" id="last_name">
+                                            <label class="label--desc">last name</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Company</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="text" name="company" id="company">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Email</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="email" name="email" id="email">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row m-b-55">
+                            <div class="name">Phone</div>
+                            <div class="value">
+                                <div class="row row-refine">
+
+                                    <div class="col-9">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" name="phone" id="phone">
+                                            <label class="label--desc">Phone Number</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Account Type</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <div class="rs-select2 js-select-simple select--no-search">
+                                        <select name="account_type" id="account_type">
+                                            <option disabled="disabled" selected="selected" >Choose option</option>
+                                            <option value="0">Personal</option>
+                                            <option value="1">Business</option>
+                                        </select>
+                                        <div class="select-dropdown"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="name">Products</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <div class="rs-select2 js-select-simple select--no-search">
+                                        <select name="products" id="products">
+                                            <option disabled="disabled" selected="selected">Choose option</option>
+											<option>Current</option>
+                                            <option>Saving</option>
+                                            <option>Credit Card</option>
+                                            <option>Loan</option>
+                                            <option>Fund</option>
+											<option>certificate of Deposit</option>
+											<option>Time Deposit</option>
+											<option>Save and Safe Account</option>
+											<option>Mileseverywhere Current Account</option>
+											<option>Smart Saving Account</option>
+                                        </select>
+                                        <div class="select-dropdown"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Branchs</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <div class="rs-select2 js-select-simple select--no-search">
+                                        <select name="branchs" id="branchs">
+                                            <option disabled="disabled" selected="selected">Choose branch</option>
+	<option value="-1">الكل</option>
+	<option value="299">احمد ماهر</option>
+	<option value="177">أربيلا</option>
+	<option value="279">أركاديا</option>
+	<option value="184">إسماعيلية</option>
+	<option value="140">أسوان</option>
+	<option value="139">أسيوط</option>
+	<option value="216">الإبراهيمية</option>
+	<option value="185">الأقصر</option>
+	<option value="286">الجمالية</option>
+	<option value="224">الجونة</option>
+	<option value="172">الجيزة</option>
+	<option value="168">الحصري</option>
+	<option value="206">الحى السابع</option>
+	<option value="205">الحى العاشر</option>
+	<option value="169">الدقي</option>
+	<option value="278">الدهار</option>
+	<option value="157">الزمالك</option>
+	<option value="283">الزيتون</option>
+	<option selected="selected" value="273">السادس من أكتوبر</option>
+	<option value="147">السبتية</option>
+	<option value="136">السلطان حسين</option>
+	<option value="199">السوق القديم</option>
+	<option value="201">السويس</option>
+	<option value="287">السيدة زينب</option>
+	<option value="171">الشيخ زايد</option>
+	<option value="142">العاشر من رمضان</option>
+	<option value="151">العباسية</option>
+	<option value="149">العبور</option>
+	<option value="289">العبور</option>
+	<option value="150">القاهرة الجديدة</option>
+	<option value="167">القرية الذكية</option>
+	<option value="238">القصير</option>
+	<option value="288">القطامية</option>
+	<option value="302">الماظا باي</option>
+	<option value="186">المحلة</option>
+	<option value="153">المعادي</option>
+	<option value="152">المقطم</option>
+	<option value="179">الممشى السياحي</option>
+	<option value="280">المنتزه</option>
+	<option value="214">المندرة</option>
+	<option value="126">المنطقة الحرة</option>
+	<option value="253">المنطقة السابعة</option>
+	<option value="162">المنطقة الصناعية</option>
+	<option value="251">المنطقة الصناعية</option>
+	<option value="209">المنطقة الصناعية الرابعة</option>
+	<option value="173">المنيل</option>
+	<option value="294">المنيل</option>
+	<option value="174">المهندسين</option>
+	<option value="148">الموسكي</option>
+	<option value="215">الهانوفيل</option>
+	<option value="170">الهرم</option>
+	<option value="194">الهضبة</option>
+	<option value="178">الهضبة الشمالية</option>
+	<option value="210">بالم هيلز</option>
+	<option value="124">برج العرب</option>
+	<option value="141">بنها</option>
+	<option value="275">بني سويف</option>
+	<option value="295">بور فؤاد</option>
+	<option value="190">بورت غالب</option>
+	<option value="281">بورت غالب</option>
+	<option value="133">بورتو مارينا</option>
+	<option value="191">بورسعيد</option>
+	<option value="285">بولاق</option>
+	<option value="207">بيفرلى هيلز</option>
+	<option value="145">جاردن سيتى</option>
+	<option value="164">جاردينيا</option>
+	<option value="138">جامعة أسيوط</option>
+	<option value="226">جامعة المنوفية</option>
+	<option value="271">جسر السويس</option>
+	<option value="223">جمصة</option>
+	<option value="241">جنوب مطار مرسى علم</option>
+	<option value="292">حدائق الاهرام</option>
+	<option value="284">حدائق القبة</option>
+	<option value="221">حلوان</option>
+	<option value="266">حي اليمن</option>
+	<option value="228">خليج أبو المخاديج</option>
+	<option value="254">خليج الباشا</option>
+	<option value="198">خليج القرش</option>
+	<option value="242">خليج ألماظة</option>
+	<option value="183">خليج سوما</option>
+	<option value="181">خليج مكادي</option>
+	<option value="196">خليج نبق</option>
+	<option value="195">خليج نعمة</option>
+	<option value="213">داون تاون</option>
+	<option value="208">دريم لاند</option>
+	<option value="269">دمنهور</option>
+	<option value="159">دمياط</option>
+	<option value="161">دمياط الجديدة</option>
+	<option value="158">دهب</option>
+	<option value="257">راس كينيدي</option>
+	<option value="197">راس نصراني</option>
+	<option value="134">رشدي</option>
+	<option value="146">رمسيس</option>
+	<option value="204">زقازيق</option>
+	<option value="137">زيزنيا</option>
+	<option value="135">سان ستيفانو</option>
+	<option value="211">ستيلا دي ماري</option>
+	<option value="296">سفاجا</option>
+	<option value="127">سموحة</option>
+	<option value="234">سهل حشيش</option>
+	<option value="200">سوهاج</option>
+	<option value="303">سيدى عبد الرحمن</option>
+	<option value="300">سيدي كرير</option>
+	<option value="301">سيزر باي</option>
+	<option value="187">شارع الجمهورية</option>
+	<option value="188">شارع الجيش</option>
+	<option value="267">شارع الجيش</option>
+	<option value="268">شارع الصيد</option>
+	<option value="156">شبرا</option>
+	<option value="259">شرم المية</option>
+	<option value="282">شيبين الكوم</option>
+	<option value="225">شيراتون الجونة</option>
+	<option value="182">صن رايز</option>
+	<option value="263">صن رايز ايلاند</option>
+	<option value="262">صن رايز جاردن</option>
+	<option value="233">طريغ الغردقة سفاجا</option>
+	<option value="290">طريق الزعفرانة</option>
+	<option value="229">طريق السقالة</option>
+	<option value="235">طريق الشيراتون</option>
+	<option value="163">طريق القاهرة اسكندرية الصحراوي</option>
+	<option value="230">طريق القرى</option>
+	<option value="232">طريق سفاجا القصير</option>
+	<option value="203">طنطا</option>
+	<option value="274">طور</option>
+	<option value="212">عجمى</option>
+	<option value="258">فندق سافيتا</option>
+	<option value="265">فندق سويس إن</option>
+	<option value="244">قرية الدبلوماسيين</option>
+	<option value="192">قويسنا</option>
+	<option value="298">كفر الزيات</option>
+	<option value="276">كفر الشيخ</option>
+	<option value="128">كفر عبدو</option>
+	<option value="239">كهرمانة</option>
+	<option value="227">كورنيش النيل</option>
+	<option value="243">كورنيش النيل</option>
+	<option value="264">كورنيش النيل</option>
+	<option value="129">لوران</option>
+	<option value="246">مارينا</option>
+	<option value="247">مارينا 2</option>
+	<option value="175">مارينا أبو تيج</option>
+	<option value="217">محرم بيك</option>
+	<option value="272">محطة الرمل</option>
+	<option value="237">محطة قطار الأقصر</option>
+	<option value="293">محور 26 يوليو</option>
+	<option value="220">مدينة الرحاب</option>
+	<option value="193">مدينة السادات</option>
+	<option value="270">مدينة الشروق</option>
+	<option value="252">مدينة مبارك الصناعية</option>
+	<option value="155">مدينة نصر</option>
+	<option value="222">مدينتى</option>
+	<option value="245">مراسي ريزورت</option>
+	<option value="202">مرتفعات طابا</option>
+	<option value="250">مرحبا ريزورت</option>
+	<option value="131">مرسى مطروح</option>
+	<option value="154">مسطرد</option>
+	<option value="143">مصر الجديدة</option>
+	<option value="218">مطار أسوان</option>
+	<option value="236">مطار الأقصر</option>
+	<option value="231">مطار الغردقة</option>
+	<option value="219">مطار القاهرة الدولي</option>
+	<option value="260">مطار شرم الشيخ</option>
+	<option value="240">مطار مرسى علم</option>
+	<option value="256">منتزه</option>
+	<option value="130">منشية</option>
+	<option value="180">منطقة البنوك</option>
+	<option value="255">منطقة لاجونا</option>
+	<option value="189">منيا</option>
+	<option value="176">موفنبيك الجونة</option>
+	<option value="132">ميامي</option>
+	<option value="277">ميت غمر</option>
+	<option value="165">ميدان جهينة</option>
+	<option value="261">ميدان سوهو</option>
+	<option value="166">مينا جاردن سيتى</option>
+	<option value="123">ميناء الأسكندرية</option>
+	<option value="125">ميناء الدخيلة</option>
+	<option value="122">ميناء السخنة</option>
+	<option value="160">ميناء دمياط</option>
+	<option value="291">نيو جيزة</option>
+	<option value="144">وسط البلد</option>
+                                        </select>
+                                        <div class="select-dropdown"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+						<div class="form-row">
+                            <div class="name">Gender</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <div class="rs-select2 js-select-simple select--no-search">
+                                        <select name="gender" id="gender">
+                                            <option disabled="disabled" selected="selected">Choose option</option>
+                                            <option>Male</option>
+                                            <option>Female</option>
+                                        </select>
+                                        <div class="select-dropdown"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btn btn--radius-2 btn--red" type="button" id="reg_btn">Register</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery JS-->
+    <script src="/static/content/vendor/jquery/jquery.min.js"></script>
+    <!-- Vendor JS-->
+    <script src="/static/content/vendor/select2/select2.min.js"></script>
+    <script src="/static/content/vendor/datepicker/moment.min.js"></script>
+    <script src="/static/content/vendor/datepicker/daterangepicker.js"></script>
+
+    <!-- Main JS-->
+    <script src="/static/scripts/global.js"></script>
+</body>
+</html>

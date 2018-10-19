@@ -1,0 +1,23 @@
+Description,Date,Debit,Credit,Balance
+,,,,
+Opening Balance,1/1/2018,0,0,19000
+,,,,
+Transfer from Checking Account,5/1/2018,0,3000,22000
+,,,,
+Transfer to Checking Account,13/01/2018,4000,0,18000
+,,,,
+Transfer from Checking Account,26/01/2018,0,1500,19500
+,,,,
+Transfer to Checking Account,12/2/2018,2500,0,17000
+,,,,
+Transfer to Checking Account,2/2/2018,4000,0,13000
+,,,,
+Transfer from Checking Account,5/3/2018,0,1000,14000
+,,,,
+Transfer from Checking Account,22/03/2018,0,2000,16000
+,,,,
+Transfer from Checking Account,28/03/2018,0,3000,19000
+,,,,
+Transfer to Checking Account,4/4/2018,4000,0,15000
+,,,,
+Transfer from Checking Account,21/04/2018,0,3000,18000

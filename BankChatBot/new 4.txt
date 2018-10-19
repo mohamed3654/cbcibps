@@ -1,0 +1,59 @@
+
+u"keywords_ar": [{u"key": u"ايه", u"value": 3.0},{u"key": u"امتى", u"value": 3.0},{u"key": u"ازاى", u"value": 3.0},
+{u"key": u"هل", u"value": 3.0},{u"key": u"ممكن", u"value": 3.0},{u"key": u"كام", u"value": 3.0},{u"key": u"ليه", u"value": 5.0},
+
+{u"key": u"انا", u"value": 3.0}, {u"key": u"هو", u"value": 3.0},{u"key": u"لدي", u"value": 3.0},{u"key": u"عندي", u"value": 4.0},
+{u"key": u"لما", u"value": 3.5},{u"key": u"مني", u"value": 3.5},{u"key": u"عم", u"value": 3.0},{u"key": u"انتوا", u"value": 3.0},
+ {u"key": u"اخويا", u"value": 3.0},{u"key": u"كلهم", u"value": 3.5}, {u"key": u"جماعة", u"value": 4.0},{u"key": u"لانى", u"value": 3.0},
+
+
+{u"key": u"عايز", u"value": 3.5},{u"key": u"عاوز", u"value": 3.5}, {u"key": u"اعرف", u"value": 3.5},{u"key": u"اقدم", u"value": 4.5},
+{u"key": u"اعمل", u"value": 3.0}, {u"key": u"اخد", u"value": 3.0}, {u"key": u"تقولى", u"value": 3.0},{u"key": u"بتتحسب", u"value": 4.0},
+{u"key": u"بتحسبوا", u"value": 4.0}و{u"key": u"متاح", u"value": 3.0},{u"key": u"محتاج", u"value": 3.0},{u"key": u"ينفع", u"value": 3.0},
+{u"key": u"بستفسر", u"value": 3.0},{u"key": u"كنت", u"value": 3.0},{u"key": u"بسئل", u"value": 3.0},{u"key": u"عامل", u"value": 3.0},
+{u"key": u"سمحت", u"value": 2.0},{u"key": u"تبقى", u"value": 3.0},{u"key": u"يوجد", u"value": 4.5},{u"key": u"يقع", u"value": 4.0},
+{u"key": u"اقرب", u"value": 4.5}و{u"key": u"عارف", u"value": 4.5},{u"key": u"قادر", u"value": 3.5}, {u"key": u"بلاقي", u"value": 4.5}, 
+{u"key": u"بيطلعلي", u"value": 4.5}, {u"key": u"اوقف", u"value": 5.0},{u"key": u"اغلق", u"value": 4.5},{u"key": u"اقفل", u"value": 4.5},
+{u"key": u"بشوف", u"value": 4.5},{u"key": u"ضاع", u"value": 5.0}, {u"key": u"اتسرق", u"value": 5.0},{u"key": u"افعل", u"value": 4.0},
+{u"key": u"بدوس", u"value": 4.0}, {u"key": u"بختار", u"value": 4.0}, {u"key": u"راضي", u"value": 4.0},{u"key": u"اشغل", u"value": 4.0},
+{u"key": u"يفتح", u"value": 4.0}, {u"key": u"افتح", u"value": 4.0},{u"key": u"اشتركت", u"value": 4.0},{u"key": u"اتصلت", u"value": 4.0},
+{u"key": u"برضه", u"value": 4.5},{u"key": u"احول", u"value": 3.0},{u"key": u"شغال", u"value": 4.0},{u"key": u"اوصل", u"value": 4.0},
+{u"key": u"مشترك", u"value": 4.0},{u"key": u"افعلها", u"value": 4.0},{u"key": u"اسجل", u"value": 3.5},{u"key": u"يقولى", u"value": 3.5},
+{u"key": u"بتاعي", u"value": 3.0}, {u"key": u"روح", u"value": 3.0},{u"key": u"موقفين", u"value": 4.5},{u"key": u"اكلم", u"value": 4.5},
+{u"key": u"عرفين", u"value": 4.0},{u"key": u"يحلوا", u"value": 4.0},{u"key": u"بدور", u"value": 4.0},{u"key": u"بقالها", u"value": 4.0},
+ {u"key": u"مستلمتهاش", u"value": 4.0},{u"key": u"تلاقوا", u"value": 4.0},{u"key": u"شغل", u"value": 4.0},{u"key": u"شغالين", u"value": 4.0},
+ {u"key": u"بكتب", u"value": 3.0}, {u"key": u"بقالى", u"value": 4.0}, {u"key": u"بحاول", u"value": 4.0},{u"key": u"اكلمكوا", u"value": 4.5},
+ {u"key": u"نسيت", u"value": 5.0},{u"key": u"بتاعت", u"value": 3.0},{u"key": u"يعملوا", u"value": 3.5},{u"key": u"طلب", u"value": 4.0},
+{u"key": u"محدش", u"value": 4.0},{u"key": u"بيرد", u"value": 4.0},{u"key": u"اطلب", u"value": 4.0},
+ 
+ {u"key": u"على", u"value": 4.5},{u"key": u"قد", u"value": 3.0},{u"key": u"لو", u"value": 2.0},{u"key": u"عن", u"value": 3.0},
+ {u"key": u"مش", u"value": 5.0},{u"key": u"اخر", u"value": 3.0},{u"key": u"فى", u"value": 3.0},{u"key": u"يا", u"value": 3.0},
+ {u"key": u"كل", u"value": 3.0},{u"key": u"غير", u"value": 3.0},{u"key": u"ده", u"value": 3.0},{u"key": u"ما", u"value": 3.0},
+ {u"key": u"الى", u"value": 3.0},{u"key": u"عليها", u"value": 3.5},{u"key": u"دى", u"value": 3.0},{u"key": u"لسه", u"value": 3.0},
+ {u"key": u"اللى", u"value": 3.0},u"key": u"فيها", u"value": 3.0}, {u"key": u"كدة", u"value": 3.0},{u"key": u"من", u"value": 3.5},
+
+ 
+{u"key": u"لحاجه", u"value": 4.0},{u"key": u"مره", u"value": 3.0},{u"key": u"صحيح", u"value": 3.5},{u"key": u"شهر", u"value": 4.0},
+{u"key": u"الاول", u"value": 3.5},{u"key": u"اللحظة", u"value": 3.0},{u"key": u"عطلانة", u"value": 4.5}, {u"key": u"نص", u"value": 3.5},
+{u"key": u"ربع", u"value": 3.5}, {u"key": u"ساعة", u"value": 4.0},{u"key": u"انتظار", u"value": 4.5},{u"key": u"رد", u"value": 4.5},
+{u"key": u"مرة", u"value": 3.0},{u"key": u"مرتين", u"value": 3.0},{u"key": u"تانى", u"value": 3.5},{u"key": u"جدا", u"value": 3.0},
+
+ 
+{u"key": u"الكارت", u"value": 4.0},{u"key": u"الحساب", u"value": 3.5},{u"key": u"صفحة", u"value": 3.0},{u"key": u"الاكونت", u"value": 4.0},
+{u"key": u"رقم", u"value": 3.0},{u"key": u"مشكلة", u"value": 5.0},{u"key": u"مشكله", u"value": 5.0},{u"key": u"العملاء", u"value": 4.5},
+{u"key": u"خطأ", u"value": 5.0},{u"key": u"خدمة", u"value": 4.0},{u"key": u"رسالة", u"value": 3.5},{u"key": u"الموضوع", u"value": 4.0},
+{u"key": u"السرى", u"value": 4.0},{u"key": u"البطاقة", u"value": 4.5},{u"key": u"بطاقتى", u"value": 4.5},{u"key": u"العملا", u"value": 4.0},
+{u"key": u"الاسم", u"value": 4.0},{u"key": u"الباسورد", u"value": 4.0},{u"key": u"مؤقته", u"value": 4.0},{u"key": u"الdepit card", u"value": 4.0},
+{u"key": u"الcredit card", u"value": 4.0},{u"key": u"الatm", u"value": 4.0},{u"key": u"مدينة", u"value": 3.5},{u"key": u"الماكنة", u"value": 4.0},
+{u"key": u"مكالمة", u"value": 4.5},{u"key": u"credentialsال", u"value": 4.5},{u"key": u"call centerال", u"value": 4.0},{u"key": u"حل", u"value": 4.0}
+ ],
+
+
+
+u"answers_ar": [u"يرجى الإتصال على خدمة العملاء 19666 متاحيين 24 ساعة طوال أيام الأسبوع لمساعدة حضرتك فى الإجراء ",
+ u"كلمنا على 19666 وسيتم الرد عليك في أسرع وقت", u"خدمة العملاء 19666 متاحة على مدار 24 ساعة يومياً طوال أيام الأسبوع ونحن نعتذر عن التأخر في الوصول الي أحد ممثلي خدمة العملاء في بعض الأوقات وذلك نظراً لضغط المكالمات من عملاء أخرين "]
+                    },
+
+
+
+خدمة العملاء 19666 متاحة على مدار 24 ساعة يومياً طوال أيام الأسبوع ونحن نعتذر عن التأخر في الوصول الي أحد ممثلي خدمة العملاء في بعض الأوقات وذلك نظراً لضغط المكالمات من عملاء أخرين .
