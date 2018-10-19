@@ -243,7 +243,8 @@
         $('#question').keypress(function (e) {
             if (e.which == 10 || e.which == 13) {
                 if ($.trim($('#question').val()) == '') return;
-                $('#chat_hist').append("<div class='row'><div style='float: left; background-color: #f16a22; padding: 15px; border-radius: 5px;'>" + data.question + "</div></div><br />");
+                $('#chat_hist').append("<div class='row'><div style='float: left; background-color: #f16a22; padding: 15px; border-radius: 5px;'>" + $('#question').val() + "</div></div><br />");
+                $('#chat_hist').append("<div id='spinner'>Spinner</div>");
 
                 $.ajax({
                     type: "POST",
@@ -252,7 +253,7 @@
                         if (data.question != null && data.question != undefined) {
                             console.log(data.similarity);
 
-
+                            $('#spinner').remove();
 
                             if (data.answer != '')
                                 $('#chat_hist').append("<div class='row'><div style='float: right; background-color: #58e6eb; padding: 15px; border-radius: 5px;'>" + data.answer + "</div></div><br />");
