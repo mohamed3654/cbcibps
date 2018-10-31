@@ -193,14 +193,15 @@ bag_of_intents = [{
 
         ],
 
-        u"answers": [u''' For more information about Current Account you can visit the following link: <br/> <a href="https://www.cibeg.com/english/Personal/Accounts/Pages/CurrentAccount.aspx/" target="_blank"> https://www.cibeg.com/english/Personal/Accounts/Pages/CurrentAccount.aspx </a><br/>
-        			 and For more information about saving Account  you can visit the following link: <br/> <a href="https://www.cibeg.com/english/Personal/Accounts/Pages/SavingAccount.aspx/" target="_blank"> https://www.cibeg.com/english/Personal/Accounts/Pages/SavingAccount.aspx </a><br/>
+                 u"answers": [u''' For more information about Current Account you can visit the following link: <br/> <a href="https://www.cibeg.com/english/Personal/Accounts/Pages/CurrentAccount.aspx/" target="_blank"> Current_Account </a><br/>
+        			 and For more information about saving Account  you can visit the following link: <br/> <a href="https://www.cibeg.com/english/Personal/Accounts/Pages/SavingAccount.aspx/" target="_blank"> Saving_Account </a><br/>
 	                 and You can register your data by visiting the following link:  <br/><a href=" http://localhost:5555/registration" target="_blank" > Registration </a> <br/>  and one of our representitives will contact you '''],
 
-         u"answers_ar": [u''' لمعلومات اكثر عن الحساب الجاري يمكنك زيارة هذا الرابط <br/> <a href="https://www.cibeg.com/arabic/Personal/Accounts/Pages/CurrentAccount.aspx//" target="_blank"> https://www.cibeg.com/arabic/Personal/Accounts/Pages/CurrentAccount.aspx/</a><br/>
-                            ولمعلومات اكثر عن حساب التوفير يمكنك زيارة هذا الرابط <br/> <a href="https://www.cibeg.com/arabic/Personal/Accounts/Pages/SavingAccount.aspx//" target="_blank"> https://www.cibeg.com/arabic/Personal/Accounts/Pages/SavingAccount.aspx/</a><br/>
+                 u"answers_ar": [u''' لمعلومات اكثر عن الحساب الجاري يمكنك زيارة هذا الرابط <br/> <a href="https://www.cibeg.com/arabic/Personal/Accounts/Pages/CurrentAccount.aspx//" target="_blank"> الحساب الجاري</a><br/>
+                            ولمعلومات اكثر عن حساب التوفير يمكنك زيارة هذا الرابط
+                              <br/> <a href="https://www.cibeg.com/arabic/Personal/Accounts/Pages/SavingAccount.aspx//" target="_blank"> حساب التوفير</a><br/>
                                                  و يمكنك ايضأ تسجيل بياناتك و سوف يقوم احد ممثلى خدمة العملاء بالتواصل معك
-                         <br/><a href=" http://localhost:5555/registration_ar" target="_blank" > تسجيل </a> <br/> ''']
+                              <br/><a href=" http://localhost:5555/registration_ar" target="_blank" > تسجيل </a> <br/> ''']
                   },
       {
         u"intent": u"credit_card",
@@ -238,6 +239,7 @@ bag_of_intents = [{
                          {u"key": u"مش", u"value": 4.0},
 
                          {u"key": u"نظام", u"value": 3.0}, {u"key": u"الفيزا", u"value": 5.0},
+                         {u"key": u"كارت", u"value": 4.0}, {u"key": u"الائتمان", u"value": 5.0},
                          {u"key": u"الاءتمان", u"value": 5.0}, {u"key": u"الاءتمانية", u"value": 5.0},
                          {u"key": u"الأتمان", u"value": 5.0}, {u"key": u"الاتمان", u"value": 5.0},
                          {u"key": u"انواع", u"value": 3.5}, {u"key": u"card", u"value": 5.0},
@@ -256,10 +258,10 @@ bag_of_intents = [{
                          {u"key": u"السى اى بى", u"value": 3.0}
                          ],
 
-        u"answers": [u'''For more information about types of Credit Cards you can visit the following link: <br/> <a href="https://www.cibeg.com/english/Personal/Cards/Pages/default.aspx/" target="_blank"> https://www.cibeg.com/english/Personal/Cards/Pages/default.aspx </a> <br/>
+        u"answers": [u'''For more information about types of Credit Cards you can visit the following link: <br/> <a href="https://www.cibeg.com/english/Personal/Cards/Pages/default.aspx/" target="_blank"> Types of Credit_Cards </a> <br/>
 					and You can register your data by visiting the following link:  <br/><a href=" http://localhost:5555/registration" target="_blank" > Registration </a> <br/>  and one of our representitives will contact you '''],
 
-        u"answers_ar": [u''' :لمعرفة معلومات اكثر عن انواع الكروت الاْتمانية يمكنك زيارة هذا الرابط <br/> <a href="https://www.cibeg.com/arabic/Personal/Cards/Pages/default.aspx/" target="_blank"> https://www.cibeg.com/arabic/Personal/Cards/Pages/default.aspx/</a> <br/>
+        u"answers_ar": [u''' :لمعرفة معلومات اكثر عن انواع الكروت الاْتمانية يمكنك زيارة هذا الرابط <br/> <a href="https://www.cibeg.com/arabic/Personal/Cards/Pages/default.aspx/" target="_blank"> انواع كروت الائتمان </a> <br/>
 							و يمكنك ايضأ تسجيل بياناتك و سوف يقوم احد ممثلى خدمة العملاء بالتواصل معك   	<br/><a href=" http://localhost:5555/registration_ar" target="_blank" > تسجيل </a> <br/> ''']
                },
                 {
@@ -378,7 +380,66 @@ bag_of_intents = [{
                             ولمعلومات اكثر عن الودائع لاجل يمكنك زيارة هذا الرابط <br/> <a href="https://www.cibeg.com/arabic/Personal/Accounts/Pages/TimeDeposit.aspx/" target="_blank"> https://www.cibeg.com/arabic/Personal/Accounts/Pages/TimeDeposit.aspx/</a><br/>
                             و يمكنك ايضأ تسجيل بياناتك و سوف يقوم احد ممثلى خدمة العملاء بالتواصل معك
                             <br/><a href=" http://localhost:5555/registration_ar" target="_blank" > تسجيل </a> <br/> ''']
-},
+                },
+    {
+        u"intent": u"insurance",
+
+        u"values": [u"what are the documents needed to make life insurance?", u"i want to make life insurance",
+                    u"i want to make an insurance on my life",
+                    u"is it available to make insurance ", u"i want to take insurance",
+                    u"what are the types of insurance?",
+                    u"i want to take an insurance",
+                    ],
+        u"keywords": [{u"key": u"insurance", u"value": 5.0}, {u"key": u"life insurance", u"value": 5.0},
+                      {u"key": u"education insurance", u"value": 5.0}, {u"key": u"insure", u"value": 5.0},
+                      {u"key": u" insured", u"value": 5.0},
+                      {u"key": u" insurer", u"value": 5.0}],
+        u"keywords_ar": [
+
+            {u"key": u"ايه", u"value": 3.0}, {u"key": u"اية", u"value": 3.0}, {u"key": u"امتى", u"value": 3.0},
+            {u"key": u"ازاى", u"value": 3.0}, {u"key": u"ممكن", u"value": 3.0}, {u"key": u"كام", u"value": 3.0},
+            {u"key": u"هل", u"value": 3.0},
+
+            {u"key": u"انا", u"value": 3.0}, {u"key": u"هو", u"value": 3.0}, {u"key": u"لدي", u"value": 3.0},
+            {u"key": u"عندي", u"value": 4.0}, {u"key": u"عندكوا", u"value": 3.0}, {u"key": u"عم", u"value": 3.0},
+            {u"key": u"لما", u"value": 3.5}, {u"key": u"مني", u"value": 3.5}, {u"key": u"جماعة", u"value": 4.0},
+            {u"key": u"انتوا", u"value": 3.0}, {u"key": u"لانى", u"value": 3.0}, {u"key": u"كلهم", u"value": 3.5},
+            {u"key": u"اخويا", u"value": 3.0},
+
+            {u"key": u"عايز", u"value": 3.5}, {u"key": u"عاوز", u"value": 3.5}, {u"key": u"اشترك", u"value": 4.0},
+            {u"key": u"اعرف", u"value": 3.5}, {u"key": u"اقدم", u"value": 4.5},
+            {u"key": u"اعمل", u"value": 3.5}, {u"key": u"اخد", u"value": 3.0}, {u"key": u"تقولى", u"value": 3.0},
+            {u"key": u"بتتحسب", u"value": 4.0}, {u"key": u"بتحسبوا", u"value": 4.0}, {u"key": u"متاح", u"value": 3.0},
+            {u"key": u"محتاج", u"value": 3.0}, {u"key": u"ينفع", u"value": 3.0}, {u"key": u"عامل", u"value": 3.0},
+            {u"key": u"بستفسر", u"value": 3.0}, {u"key": u"كنت", u"value": 3.0}, {u"key": u"بسئل", u"value": 3.0},
+            {u"key": u"سمحت", u"value": 2.0}, {u"key": u"تبقى", u"value": 3.0}, {u"key": u"يوجد", u"value": 4.5},
+            {u"key": u"يساعدنى", u"value": 4.0}, {u"key": u"بلاقي", u"value": 3.5}, {u"key": u"تساعدنى", u"value": 4.0},
+            {u"key": u"اشترك", u"value": 4.0}, {u"key": u"بحاول", u"value": 4.0}, {u"key": u"طلب", u"value": 4.0},
+            {u"key": u"عارف", u"value": 4.5}, {u"key": u"قادر", u"value": 3.5},
+            {u"key": u"يفتح", u"value": 4.0}, {u"key": u"افتح", u"value": 4.0}, {u"key": u"اشتركت", u"value": 4.0},
+            {u"key": u"اطلب", u"value": 4.0}, {u"key": u"يساعدنى", u"value": 4.0},
+
+            {u"key": u"على", u"value": 4.5}, {u"key": u"قد", u"value": 3.0}, {u"key": u"لو", u"value": 2.0},
+            {u"key": u"عن", u"value": 3.0}, {u"key": u"لسه", u"value": 3.0}, {u"key": u"فى", u"value": 3.0},
+            {u"key": u"الى", u"value": 3.0}, {u"key": u"عليها", u"value": 3.5}, {u"key": u"دى", u"value": 3.0},
+
+            {u"key": u"تأمين", u"value": 5.0}, {u"key": u"تامين", u"value": 5.0},{u"key": u"الحياة", u"value": 5.0}, {u"key": u"حياة", u"value": 5.0},
+            {u"key": u"تعليم", u"value": 5.0}, {u"key": u"تعليمي", u"value": 5.0}, {u"key": u"درع", u"value": 5.0},
+            {u"key": u"حماية", u"value": 5.0}, {u"key": u"بطاقة", u"value": 4.0}, {u"key": u"الائتمان", u"value": 4.0},
+            {u"key": u"التامين", u"value": 5.0}, {u"key": u"شركات", u"value": 4.0}, {u"key": u"حياه", u"value": 5.0},
+            {u"key": u"انواع", u"value": 3.5}, {u"key": u"السى اى بى", u"value": 3.0}, {u"key": u"سنوى", u"value": 5.0},
+            {u"key": u"الفرع", u"value": 4.5}, {u"key": u"نسبة", u"value": 4.5},
+            {u"key": u"الورق", u"value": 4.5}, {u"key": u"المطلوب", u"value": 4.5},
+            {u"key": u"الاجرأت", u"value": 4.5}, {u"key": u"اجراء", u"value": 4.5},
+            {u"key": u"بنك", u"value": 4.0},
+            {u"key": u"سى اي بى", u"value": 3.0}, {u"key": u"cib", u"value": 3.0}],
+
+        u"answers": [u''' You can register your data by visiting the following link:  <br/><a href="https://www.cibeg.com/english/Personal/More/Pages/CILInsurance.aspx/" target="_blank"> CILInsurance </a><br/>  and one of our representitives will contact you '''],
+
+        u"answers_ar": [u'''يمكنك تسجيل بياناتك و سوف يقوم احد ممثلى خدمة العملاء بالتواصل معك
+        <br/><a href="https://www.cibeg.com/arabic/Personal/More/Pages/CILInsurance.aspx/" target="_blank" > https://www.cibeg.com/arabic/Personal/More/Pages/CILInsurance.aspx </a> <br/> ''']
+
+    },
 
               {  u"intent": u"Have_Problems",
 
@@ -526,17 +587,18 @@ def get_all_similarity(question):
     similarity = []
 
     qust = nlp(question.lower())
-
+    #print(qust + str(ozo))
     for intent in bag_of_intents:
         similarity = []
 
         print(intent[u"intent"] + " is arabic: " + str(is_arabic(question)))
 
-        if not is_arabic(question):
+        if not is_arabic(question): #English part
             for i in intent[u"values"]:
                 doc = nlp(i)
                 similarity.append(qust.similarity(doc))
-        else:
+                #print("mohamed: " + str(similarity))
+        else: #arabic part
             matched = 0.0
             for i in intent[u"keywords_ar"]:
                 for j in question.split():
@@ -554,7 +616,7 @@ def get_all_similarity(question):
 
 
         # explicit keyword mention means more weight to the intent
-        if u"keywords" in intent:
+        if u"keywords" in intent:   #english part
             for i in intent[u"keywords"]:
                 if question.lower().find(i[u"key"]) >= 0:
                     similarity = [s * i[u"value"] for s in similarity]
