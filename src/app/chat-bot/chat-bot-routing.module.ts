@@ -1,3 +1,4 @@
+import { RegistrationComponent } from './views/registration/registration.component';
 import { ChatViewComponent } from './views/chat-view/chat-view.component';
 import { routesConfig } from '@app/shared/utilities/pages-config';
 import { NgModule } from '@angular/core';
@@ -13,6 +14,10 @@ const routes: Routes = [
       {
         path: routesConfig.chatBot.chat.name,
         component: ChatViewComponent
+      },
+      {
+        path: routesConfig.chatBot.registration.name,
+        component: RegistrationComponent
       }
     ]
   }

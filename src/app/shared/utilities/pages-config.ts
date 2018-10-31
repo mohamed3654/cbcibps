@@ -5,11 +5,15 @@ export let routesConfig = {
     'module': './chat-bot/chat-bot.module#ChatBotModule',
     'chat': {
       'name': 'view',
-      'route': '/view',
+      'route': '/view'
+    },
+    'registration': {
+      'name': 'registration',
+      'route': '/registration'
     }
   },
   'notFound': {
     'name': 'not-found',
-    'route': '/not-found',
+    'route': '/not-found'
   }
 };

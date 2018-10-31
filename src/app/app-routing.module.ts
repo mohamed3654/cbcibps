@@ -14,7 +14,7 @@ import { NgModule } from '@angular/core';
       },
       {
         path: routesConfig.chatBot.name,
-        loadChildren: routesConfig.chatBot.module,
+        loadChildren: './chat-bot/chat-bot.module#ChatBotModule',
       },
       {
         path: '**',
