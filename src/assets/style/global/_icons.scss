@@ -1,0 +1,33 @@
+.hicon {
+  font-family: 'HotelsApp' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hicon-calendar:before {
+  content: "\e953";
+}
+.hicon-bubbles:before {
+  content: "\e96c";
+}
+.hicon-star-half:before {
+  content: "\e9d8";
+}
+.hicon-star-full:before {
+  content: "\e9d9";
+}
+.hicon-smile:before {
+  content: "\e9e1";
+}
+.hicon-sad:before {
+  content: "\e9e5";
+}
+.hicon-confused:before {
+  content: "\e9f5";
+}

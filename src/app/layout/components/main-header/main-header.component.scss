@@ -1,0 +1,25 @@
+@import "common";
+
+.main-header {
+    background-color: $c-main;
+    height: $header-served-space;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    &__image {
+        height: 25px;
+    }
+    &__title {
+        margin: 0;
+        margin-left: 20px;
+        font-size: $f-sm;
+        color: $c-white;
+        font-weight: $f-regular;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+}

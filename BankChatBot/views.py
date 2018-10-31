@@ -17,7 +17,7 @@ import time
 import csv
 import sqlite3
 
-#conn = sqlite3.connect("D:\\Work\\Bank-ChatBot-master\\Bank-ChatBot-master\\BankChatBot\\datab\\test.db")
+#conn = sqlite3.connect(connString2")
 
 # try:
 #     conn.execute('''CREATE TABLE ERRORS
@@ -27,7 +27,9 @@ import sqlite3
 #     pass
 #
 # conn.close()
-conn = sqlite3.connect("D:\\Work\\Bank-ChatBot-master\\Bank-ChatBot-master\\BankChatBot\\datab\\customer.db")
+connString = "E:\\Work\\cbcibps\\BankChatBot\\datab\\customer.db"
+connString2 = "E:\\Work\\cbcibps\\BankChatBot\\datab\\test.db"
+conn = sqlite3.connect(connString)
 c = conn.cursor()
 def create_table():
    c.execute('''CREATE TABLE IF NOT EXISTS registeration (fname TEXT NOT NULL, lname TEXT NOT NULL, company TEXT NOT NULL, email TEXT NOT NULL,
@@ -37,7 +39,7 @@ def create_table():
     #pass
 #conn.close()
 
-# conn = sqlite3.connect("D:\\Work\\Bank-ChatBot-master\\Bank-ChatBot-master\\BankChatBot\\datab\\test.db")
+# conn = sqlite3.connect(connString2")
 #
 # try:
 #     conn.execute('''CREATE TABLE ERRORS
@@ -142,7 +144,7 @@ def register_form():
     genders.encode("utf-8")
 
     r_c = reg_class(fnames,lnames,emails,phones,companys,account_types,productss,Branchss,genders)
-    conn = sqlite3.connect("D:\\Work\\Bank-ChatBot-master\\Bank-ChatBot-master\\BankChatBot\\datab\\customer.db")
+    conn = sqlite3.connect(connString)
     c = conn.cursor()
     c.execute(
         "INSERT INTO registeration (fname,lname,email,phone,company,account_type,products,Branchs,gender) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",(fnames,lnames,emails, phones, companys, account_types, productss, Branchss, genders))
@@ -174,7 +176,7 @@ def process_question():
         answer = bad_question[random.randint(0, len(bad_question) - 1)] if not intents.is_arabic(question) else bad_question_ar[random.randint(0, len(bad_question_ar) - 1)]
         #conn = sqlite3.connect("D:\\Work\\test\\Bank-ChatBot-with-DB\\Bank-ChatBot-master\\BankChatBot\\datab\\test.db")
         #print ('take')
-        conn = sqlite3.connect("D:\\Work\\Bank-ChatBot-master\\Bank-ChatBot-master\\BankChatBot\\datab\\test.db")
+        conn = sqlite3.connect(connString2)
         conn.execute("INSERT INTO ERRORS (SEARCH_WORD) \
                               VALUES (?)", [question])
         conn.commit()
@@ -186,7 +188,7 @@ def process_question():
     if similarity[0][u"value"] < similarity_threshold:
         answer = bad_question[random.randint(0, len(bad_question) - 1)] if not intents.is_arabic(question) else bad_question_ar[random.randint(0, len(bad_question_ar) - 1)]
         #print ('taket')
-        conn = sqlite3.connect("D:\\Work\\Bank-ChatBot-master\\Bank-ChatBot-master\\BankChatBot\\datab\\test.db")
+        conn = sqlite3.connect(connString2)
         conn.execute("INSERT INTO ERRORS (SEARCH_WORD) \
                      VALUES (?)", [question])
         conn.commit()

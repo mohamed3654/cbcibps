@@ -1,0 +1,27 @@
+<div class="chat-view">
+    <div class="chat-conversation">
+        <div class="chat-conversation__messages"  #chatWrapper [scrollTop]="chatWrapper.scrollHeight">
+            <app-message-item 
+                *ngFor="let message of messages"
+                [message]="message.text" 
+                [byMe]="message.byMe"></app-message-item>
+        </div>
+        <div class="chat-conversation__send">
+            <form (ngSubmit)="sendMessage()">
+                <div class="send-form">
+                    <input [disabled]="pendingRequest" type="text" name="text" id="text" placeholder="Type your question..." [(ngModel)]="message.text" class="send-form__input">
+                    <button [disabled]="pendingRequest" type="submit" class="btn btn-primary send-form__submit">
+                        {{pendingRequest ? '' : 'Send'}}
+                        <div *ngIf="pendingRequest" class="loading"></div>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="most-frequent">
+        <h2 class="most-frequent__title">Most frequest questions</h2>
+        <ul class="most-frequent__list">
+            <li *ngFor="let item of mostFrequent" class="most-frequent__item" (click)="sendMessage(item)">{{item}}</li>
+        </ul>
+    </div>
+</div>

@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 
 from langdetect import detect
-import spacy
+
 import operator
 import json
+import spacy
 
 nlp = spacy.load("en")
 

@@ -1,0 +1,15 @@
+/* Theme Global Styles */
+.main-container {
+    position: relative;
+    margin-top: 30px;
+    height: calc(100vh - #{$header-served-space} - #{$footer-served-space} - 30px);
+}
+
+/* Links */
+.clickable {
+    cursor: pointer !important;
+}
+
+.orange-text {
+    color: $c-secondary;
+}

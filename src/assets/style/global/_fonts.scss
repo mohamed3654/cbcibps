@@ -1,0 +1,26 @@
+/* Main font [300, 400, 500, 600, 700] */
+$fonts: ('300': 'light','400': 'regular','500': 'medium','600': 'semibold','700': 'bold');
+@each $w, $name in $fonts {
+    @font-face {
+        font-family: 'proxima-nova';
+        font-style: normal;
+        font-weight: #{$w};
+        src: url(../fonts/proxima-nova/proxima-nova-#{$name}.eot);
+        src: url(../fonts/proxima-nova/proxima-nova-#{$name}.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/proxima-nova/proxima-nova-#{$name}.woff2) format('woff2'),
+        url(../fonts/proxima-nova/proxima-nova-#{$name}.woff) format('woff'),
+        url(../fonts/proxima-nova/proxima-nova-#{$name}.ttf) format('truetype');
+    }
+}  
+
+/* Parent  Icon Font */
+@font-face {
+    font-family: 'HotelsApp';
+    src:  url('../fonts/icons/HotelsApp.eot?3lci06');
+    src:  url('../fonts/icons/HotelsApp.eot?3lci06#iefix') format('embedded-opentype'),
+      url('../fonts/icons/HotelsApp.ttf?3lci06') format('truetype'),
+      url('../fonts/icons/HotelsApp.woff?3lci06') format('woff'),
+      url('../fonts/icons/HotelsApp.svg?3lci06#HotelsApp') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }

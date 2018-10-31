@@ -1,0 +1,14 @@
+/* Global Settings */
+@import "global/colors";
+@import "global/fonts";
+@import "global/spaces";
+@import "global/typography";
+@import "global/icons";
+
+
+/* Vendors */
+@import '~bootstrap/scss/bootstrap';
+
+/* Base */
+@import "theme";
+@import "global/animations";
