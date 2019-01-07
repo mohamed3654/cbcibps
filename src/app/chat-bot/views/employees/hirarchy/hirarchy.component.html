@@ -1,0 +1,24 @@
+<section class="hirarchy-content">
+  <h1 class="hirarchy-content__title">Employees details</h1>
+  <div class="hirarchy-content__level" [ngClass]="{'hirarchy-content__level--single': (employeesLevel.level === 1)}" *ngFor="let employeesLevel of employees_date">
+    <div class="employee-card" *ngFor="let employee of employeesLevel.employees" (click)="toggleExpand(employee)">
+      <div class="employee-card__content">
+        <div class="employee-card__avatar"  [ngClass]="{'d-none': employee.expanded}">
+          <img  class="employee-card__image" [src]="employee.avatar" [alt]="employee.name">
+        </div>
+        <div class="employee-card__name">{{employee.name}}</div>
+        <div class="employee-card__role">{{employee.role}}</div>
+        <div class="employee-card__contact employee-contact" [ngClass]="{'d-none': !employee.expanded}">
+          <div class="employee-contact__item">
+            <span class="employee-contact__key">E-mail</span>
+            <span class="employee-contact__value">{{employee.email}}</span>
+          </div>
+          <div class="employee-contact__item">
+            <span class="employee-contact__key">Cisco</span>
+            <span class="employee-contact__value">{{employee.cisco}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

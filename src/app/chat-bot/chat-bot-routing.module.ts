@@ -1,3 +1,4 @@
+import { HirarchyComponent } from './views/employees/hirarchy/hirarchy.component';
 import { RegistrationComponent } from './views/registration/registration.component';
 import { ChatViewComponent } from './views/chat-view/chat-view.component';
 import { routesConfig } from '@app/shared/utilities/pages-config';
@@ -10,6 +11,10 @@ const routes: Routes = [
     children: [
       {
         path: '', redirectTo: routesConfig.chatBot.chat.name , pathMatch: 'full'
+      },
+      {
+        path: routesConfig.chatBot.hirarchy.name,
+        component: HirarchyComponent
       },
       {
         path: routesConfig.chatBot.chat.name,

@@ -5,6 +5,7 @@ import { CommonModule } from '@angular/common';
 import { ChatViewComponent } from './views/chat-view/chat-view.component';
 import { SharedModule } from '@app/shared/shared.module';
 import { RegistrationComponent } from './views/registration/registration.component';
+import { HirarchyComponent } from './views/employees/hirarchy/hirarchy.component';
 
 @NgModule({
   imports: [
@@ -12,7 +13,7 @@ import { RegistrationComponent } from './views/registration/registration.compone
     SharedModule,
     ChatBotRoutingModule
   ],
-  declarations: [ChatViewComponent, MessageItemComponent, RegistrationComponent]
+  declarations: [ChatViewComponent, MessageItemComponent, RegistrationComponent, HirarchyComponent]
 
 })
 export class ChatBotModule { }

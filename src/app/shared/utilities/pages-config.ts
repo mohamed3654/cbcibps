@@ -3,6 +3,10 @@ export let routesConfig = {
     'name': 'chatbot',
     'route': '/chatbot',
     'module': './chat-bot/chat-bot.module#ChatBotModule',
+    'hirarchy': {
+      'name': 'hirarchy',
+      'route': '/hirarchy'
+    },
     'chat': {
       'name': 'view',
       'route': '/view'

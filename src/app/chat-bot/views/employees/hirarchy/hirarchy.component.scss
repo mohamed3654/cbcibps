@@ -1,0 +1,115 @@
+@import "common";
+
+%link {
+    content: '';
+    width: 1px;
+    height: 40px;
+    background: $c-dark-gray;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+%base {
+    content: '';
+    height: 1px;
+    width: calc(100% - 150px);
+    background: $c-dark-gray;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.hirarchy-content {
+    &__title {
+        border-left: 5px solid $c-main;
+        line-height: $f-lg;
+        font-size: $f-lg;
+        padding-left: 10px;
+        color: $c-dark-gray;
+        font-weight: $f-bold;
+        text-transform: uppercase;
+    }
+    &__level {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        &--single {
+            justify-content: center;
+            padding: 10px 0 50px;
+            &::after {
+                @extend %base;
+            }
+            .employee-card::after {
+                @extend %link;
+                top: calc(100% + 10px);
+            }
+        }
+        &:not(&--single) {
+            padding: 50px 0 10px;
+            .employee-card::before {
+                @extend %link;
+                bottom: calc(100% + 10px);
+            }
+        }
+
+    }
+    .employee-card {
+        flex: 0 0 150px;
+        position: relative;
+        cursor: pointer;
+        &__content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+        }
+        &__name {
+            font-size: $f-sm;
+            font-weight: $f-bold;
+            text-align: center;
+        }
+        &__avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-bottom: 5px;
+        }
+        &__image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        &__role {
+            font-size: $f-xs;
+            letter-spacing: 2px;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        .employee-contact {
+            font-size: $f-mini;
+            text-align: center;
+            border-radius: 5px;
+            padding: 5px;
+            width: 100%;
+            background-color: transparentize($c-light-gray, 0.8);
+            &__item {
+                padding: 5px 0;
+                &:not(:first-child) {
+                    border-top: 1px solid $c-light-gray;
+                }
+            }
+            &__key {
+                display: block;
+                font-weight: $f-bold;
+            }
+            &__value {
+                display: block;
+            }
+        }
+    }
+}
